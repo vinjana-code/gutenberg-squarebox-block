@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/gutenberg-squarebox-block",
+	"name": "gutenberg-squarebox/gutenberg-squarebox-block",
 	"version": "0.1.0",
 	"title": "Gutenberg Squarebox Block",
 	"category": "widgets",
@@ -11,9 +11,17 @@
 	"supports": {
 		"html": false
 	},
+	"attributes": {
+		"squareboxTitle": {"type": "string","default": "Default Title"},
+		"boxUrl":{"type": "string","default": "#"} ,
+		"imageLink":{"type":"string","default":"https://mrgraphics.com.au/clients/wpcalvert/wp-content/uploads/2022/09/cprofile.png"},
+		"backgroundColor": {
+            "type": "string",
+            "default": "linear-gradient(90deg, #337480, #dfc57e, #ec8c59)"
+        }
+    },
 	"textdomain": "gutenberg-squarebox-block",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"style": "file:./style-index.css"
 }
