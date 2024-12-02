@@ -14,7 +14,7 @@
 	"attributes": {
 		"squareboxTitle": {"type": "string","default": "Default Title"},
 		"boxUrl":{"type": "string","default": "#"} ,
-		"imageLink":{"type":"string","default":"https://mrgraphics.com.au/clients/wpcalvert/wp-content/uploads/2022/09/cprofile.png"},
+		"imageLink":{"type":"string","default":"https://intranet.heathcotehealth.org/wp-content/uploads/2024/04/attach.png"},
 		"backgroundColor": {
             "type": "string",
             "default": "linear-gradient(90deg, #337480, #dfc57e, #ec8c59)"

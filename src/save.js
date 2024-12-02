@@ -30,11 +30,12 @@ export default function save({ attributes }) {
 				<div className="wp-block-image"> 
 					<figure className="aligncenter size-full"> 
 						<a href={ boxUrl }> 
-						   <img src={ imageLink } alt={ __('Selected image', 'gutenberg-squarebox-block') } width="100" height="100" />
+						   <img src={ imageLink } alt={ __('Selected image', 'gutenberg-squarebox-block') } style={{ maxWidth: '200px' }} />
 						 </a> 
 				    </figure> 
 				</div> 
-				<h1 className="wp-block-heading has-text-align-center"> 
+				<h1 className="wp-block-heading has-text-align-center"  style={{  
+            marginTop: '15px'  }}> 
 					<a href={ boxUrl }>{ squareboxTitle }</a> 
 				</h1> 
 			</div>

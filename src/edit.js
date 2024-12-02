@@ -61,7 +61,7 @@ export default function Edit({ attributes,setAttributes }) {
                                 <img
                                     src={imageLink}
                                     alt={__('Selected image', 'gutenberg-squarebox-block')}
-                                    style={{ width: '100px'}}
+                                    style={{ maxWidth: '200px'}}
                                 />
                             </div>
                         )}
@@ -97,7 +97,8 @@ export default function Edit({ attributes,setAttributes }) {
 									</a>
 								</figure>
 							</div>
-							<h1 className="wp-block-heading has-text-align-center">
+							<h1 className="wp-block-heading has-text-align-center" style={{  
+            marginTop: '15px'  }}>
 								<a href={ boxUrl }>{ squareboxTitle }</a>
 							</h1>
 				</div>

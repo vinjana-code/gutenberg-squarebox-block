@@ -113,7 +113,7 @@ function Edit({
                   src: imageLink,
                   alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Selected image', 'gutenberg-squarebox-block'),
                   style: {
-                    width: '100px'
+                    maxWidth: '200px'
                   }
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
@@ -164,6 +164,9 @@ function Edit({
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h1", {
           className: "wp-block-heading has-text-align-center",
+          style: {
+            marginTop: '15px'
+          },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
             href: boxUrl,
             children: squareboxTitle
@@ -295,13 +298,17 @@ function save({
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
                 src: imageLink,
                 alt: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Selected image', 'gutenberg-squarebox-block'),
-                width: "100",
-                height: "100"
+                style: {
+                  maxWidth: '200px'
+                }
               })
             })
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
           className: "wp-block-heading has-text-align-center",
+          style: {
+            marginTop: '15px'
+          },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
             href: boxUrl,
             children: squareboxTitle
@@ -404,7 +411,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"gutenberg-squarebox/gutenberg-squarebox-block","version":"0.1.0","title":"Gutenberg Squarebox Block","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"attributes":{"squareboxTitle":{"type":"string","default":"Default Title"},"boxUrl":{"type":"string","default":"#"},"imageLink":{"type":"string","default":"https://mrgraphics.com.au/clients/wpcalvert/wp-content/uploads/2022/09/cprofile.png"},"backgroundColor":{"type":"string","default":"linear-gradient(90deg, #337480, #dfc57e, #ec8c59)"}},"textdomain":"gutenberg-squarebox-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"gutenberg-squarebox/gutenberg-squarebox-block","version":"0.1.0","title":"Gutenberg Squarebox Block","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"attributes":{"squareboxTitle":{"type":"string","default":"Default Title"},"boxUrl":{"type":"string","default":"#"},"imageLink":{"type":"string","default":"https://intranet.heathcotehealth.org/wp-content/uploads/2024/04/attach.png"},"backgroundColor":{"type":"string","default":"linear-gradient(90deg, #337480, #dfc57e, #ec8c59)"}},"textdomain":"gutenberg-squarebox-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

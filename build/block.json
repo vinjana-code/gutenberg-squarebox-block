@@ -22,7 +22,7 @@
     },
     "imageLink": {
       "type": "string",
-      "default": "https://mrgraphics.com.au/clients/wpcalvert/wp-content/uploads/2022/09/cprofile.png"
+      "default": "https://intranet.heathcotehealth.org/wp-content/uploads/2024/04/attach.png"
     },
     "backgroundColor": {
       "type": "string",
